@@ -1,0 +1,236 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Great+Vibes&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Great+Vibes&family=Koulen&family=Playfair+Display&family=Sedgwick+Ave&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    outline: none;
+    border:none;
+}
+
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+section,
+span,
+p{
+    margin:0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background-image: url(çikolata.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-Logo{
+    font-size: 16px;
+    letter-spacing: 4px;
+    border-bottom: 4px solid #613204;
+    padding-bottom: 6px;
+    
+
+}
+.header-navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 27px;
+}
+
+
+
+
+
+a{
+    color: #381d02;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%);
+}
+h3{
+    margin-bottom:25px;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-family: 'Great Vibes', cursive;
+    color:#c79563;
+}
+
+
+#ftr1{
+    text-align: center; 
+}
+
+#resim{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.carousel-item::before{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity:0,7
+}
+
+.carousel-caption{
+    bottom:180px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    top:2rem;
+}
+
+.slider-btn{
+    margin-top:30px;
+}
+
+.slider-btn .btn{
+    background-color: rgb(5, 82, 5);
+    color:bisque;
+    border-radius: 0;
+    padding:1.5rem 2rem;
+    font-size:1rem;
+}
+   
+.slider-btn .btn-2{
+    color: rgb(5, 82, 5);
+    background-color: bisque;
+}
+
+
+
+#genelYapi{
+    width: 898px;
+    border: 1px solid #613204;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#anaHeader{
+    width: 798px;
+    height: 80px;
+    border: 1px solid #381d02;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+ 
+#icerikCerceve{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#anasection{
+    width: 498px;
+    height: 600px;
+    border: 3px  solid #381d02;
+    text-align: center;
+}
+
+#anaside{
+    width: 273px;
+    height: 498px;
+    border: 3px solid #6b3f14;
+    float: right;
+    text-align: center;
+    margin-top: -550px;
+}
+
+.anaArticle{
+    width: 398px;
+    height: 181px;
+    border: 3px solid #8f663d;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.h1.headerbaslik{
+    color:#381d02;
+}
+
+.son{
+    text-align: center;
+    color: rgb(58, 59, 56);
+}
+
+#başlık{
+    color: rgb(128, 14, 14);
+}
+
+#tarif1{
+    color:#221b1b;
+}
+
+#tarif2{
+    color:#5c5a5a;
+}
+#tarif3{
+    color:#493838;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        form {
+            margin-bottom: 30px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="submit"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="file"] {
+            margin-top: 5px;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>İletişim</h1>
+        
+        <form>
+            <label for="name">İsim:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">E-posta:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="subject">Konu:</label><br>
+            <input type="text" id="subject" name="subject"><br>
+
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+
+            <input type="submit" value="Gönder">
+        </form>
+
+        <hr>
+
+        <h2>Bültenimize Abone Ol</h2>
+        <form>
+            <label for="newsletter_email">E-posta:</label><br>
+            <input type="email" id="newsletter_email" name="newsletter_email"><br>
+
+            <input type="submit" value="Abone Ol">
+        </form>
+
+        <hr>
+
+        <h2>Teklif İste</h2>
+        <form>
+            <label for="quote_name">İsim:</label><br>
+            <input type="text" id="quote_name" name="quote_name"><br>
+
+            <label for="quote_email">E-posta:</label><br>
+            <input type="email" id="quote_email" name="quote_email"><br>
+
+            <label for="quote_details">Detaylar:</label><br>
+            <textarea id="quote_details" name="quote_details"></textarea><br>
+
+            <input type="submit" value="İste">
+        </form>
+
+        <hr>
+
+        <h2>Geri Bildirim</h2>
+        <form>
+            <label for="feedback_name">İsim:</label><br>
+            <input type="text" id="feedback_name" name="feedback_name"><br>
+
+            <label for="feedback_email">E-posta:</label><br>
+            <input type="email" id="feedback_email" name="feedback_email"><br>
+
+            <label for="feedback_message">Mesaj:</label><br>
+            <textarea id="feedback_message" name="feedback_message"></textarea><br>
+
+            <input type="submit" value="Geri Bildirim Gönder">
+        </form>
+
+        <hr>
+
+        <h2>İş Başvurusu</h2>
+        <form>
+            <label for="job_name">İsim:</label><br>
+            <input type="text" id="job_name" name="job_name"><br>
+
+            <label for="job_email">E-posta:</label><br>
+            <input type="email" id="job_email" name="job_email"><br>
+
+            <label for="job_resume">Özgeçmiş:</label><br>
+            <input type="file" id="job_resume" name="job_resume"><br>
+
+            <input type="submit" value="Başvur">
+        </form>
+    </div>
+</body>
+</html>
